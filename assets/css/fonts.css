@@ -1,3 +1,29 @@
+/* Bebas Neue */
+@font-face {
+    font-family: "BebasNeue-Bold";
+    font-weight: bold;
+    font-style: normal;
+    src: url("../fonts/BebasNeue/BebasNeue-Bold.otf") format("opentype");
+}
+@font-face {
+    font-family: "BebasNeue-Book";
+    font-style: normal;
+    src: url("../fonts/BebasNeue/BebasNeue-Book.otf") format("opentype");
+}
+@font-face {
+    font-family: "BebasNeue-Light";
+    font-style: italic;
+    src: url("../fonts/BebasNeue/BebasNeue-Light.otf") format("opentype");
+}
+@font-face {
+    font-family: "BebasNeue-Thin";
+    font-style: italic;
+    src: url("../fonts/BebasNeue/BebasNeue-Thin.otf") format("opentype");
+}
+/* Bebas Neue END */
+
+
+/* DTECH ICONS */
 @font-face {
     font-family: 'dtech-icons';
     src:  url('../fonts/dtech-icons/dtech-icons.eot?vknyae');
@@ -58,3 +84,4 @@
 .dtech-logo:before {
     content: "\e90a";
 }
+/* DTECH ICONS END */

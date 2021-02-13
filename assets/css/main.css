@@ -208,6 +208,17 @@ ul li::marker {
     color: #194f84;
 }
 
+
+
+.section_navbar_container_mobileMenu_header_link {
+    font-size: 55px;
+    color: #ffffff;
+    line-height: 1;
+}
+.section_navbar_container_mobileMenu_header_link:hover {
+    color: #ffffff;
+}
+
 .section_navbar_container_menu {
     display: flex;
 }

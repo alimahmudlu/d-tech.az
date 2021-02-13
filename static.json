@@ -4,6 +4,6 @@
   "routes": {
     "/": "index.html",
     "/services": "ourServices.html",
-    "/services/details": "ourServicesInner.html"
+    "/serviceDetails": "ourServicesInner.html"
   }
 }

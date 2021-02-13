@@ -1,105 +1,114 @@
-<!DOCTYPE html>
-<html lang="az">
-<head>
-    <link rel="stylesheet" href="assets/css/fonts.css" />
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="theme-color" content="#ff415c">
+.section_ourServicesPage_body_items {
+display: flex;
+flex-direction: column;
+}
+.section_ourServicesPage_body_item_pos {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+position: relative;
+}
+.section_ourServicesPage_body_items_item {
+color: #d5d5d5;
+font-size: 35px;
+font-weight: 700;
+font-style: normal;
+letter-spacing: 2.8px;
+line-height: 84.4px;
+text-align: left;
+/*position: relative;*/
+transition: all 0.3s;
+z-index: 0;
+}
+.section_ourServicesPage_body_items_item.blur {
+filter: blur(1.5px);
+}
+.section_ourServicesPage_body_items_item:hover {
+color: #ffffff;
+z-index: 10;
+}
+.section_ourServicesPage_body_items_item--text {
+position: relative;
+z-index: 10;
+}
+.section_ourServicesPage_body_items_item_body {
+position: absolute;
+top: 0;
+left: -15px;
+display: none;
+}
+.section_ourServicesPage_body_items_item_body_items {
+display: flex;
+flex-direction: row;
+max-width: 900px;
+}
+.section_ourServicesPage_body_items_item_body_item {
+width: 300px;
+}
+.section_ourServicesPage_body_items_item_body_item--img {
+width: 100%;
+}
 
-
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/vendor/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/vendor/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/vendor/favicon/favicon-16x16.png">
-    <link rel="manifest" href="assets/vendor/favicon/site.webmanifest">
-    <link rel="mask-icon" href="assets/vendor/favicon/safari-pinned-tab.svg" color="#ff415c">
-    <meta name="msapplication-TileColor" content="#ff415c">
-    <meta name="theme-color" content="#ff415c">
-
-
-    <title>D-TECH</title>
-    <meta name="author" content="Əli Mahmudlu - Frontend Web Developer - Freelance">
-    <meta name="copyright" content="Əli Mahmudlu - Frontend Web Developer - Freelance">
-    <meta name="Description" content="D-TECH">
-    <meta name="keywords" content="d-tech, d, tech">
-    <meta property="image" content="" />
-    <meta property="og:title" name="og:title" content="D-TECH">
-    <meta property="og:type" content="Home Page" />
-    <meta property="og:image" content="" />
-    <meta property="og:url" content="d-tech.az" />
-    <meta property="og:description" content="D-TECH" />
-
-
-    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.css" />
-    <link rel="stylesheet" href="assets/css/main.css" />
-</head>
-<body>
-
-<section class="section section_navbar">
-    <div class="container-fluid">
-        <div class="section_navbar_container">
-            <a href="index.html" class="section_navbar_container_link">
-                <i class="dtech-icons dtech-logo"></i>
-            </a>
-            <div class="section_navbar_container_menu">
-                <div class="section_navbar_container_menu_item active">
-                    <a href="#" class="section_navbar_container_menu_item--link">
-                        ABOUT COMPANY
-                    </a>
-                </div>
-                <div class="section_navbar_container_menu_item">
-                    <a href="#" class="section_navbar_container_menu_item--link">
-                        OUR SERVICES
-                    </a>
-                </div>
-            </div>
-            <a href="#" class="section_navbar_container_search">
-                <i class="dtech-icons dtech-search"></i>
-            </a>
-        </div>
-    </div>
-</section>
-<section class="section section_header">
-    <div class="container-fluid">
-
-
-        <div class="containerBreak">
-            <div class="row containerBreak-row containerBreak-row-left">
-                <div class="col-lg-6 order-2 order-lg-1 pt-2 pb-2">
-                    <div class="containerBreak-row-img section_header_img">
-                        <img src="assets/images/header_img.png" class="w-100"/>
-                    </div>
-                </div>
-                <div class="col-lg-6 order-1 order-lg-2 pt-2 pb-2">
-                    <h1 class="section_header--header">
-                        Spectacular technologies
-                    </h1>
-                    <p class="section_header--description">
-                        Stimmt is a digital agency for sleek technology and kick-ass design
-                    </p>
-                    <a href="#" class="customBtn">
-                        <span>about our affairs</span>
-                    </a>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="scrollDown">
-            <a href="#" class="scrollDown-link">
-                <span>Scroll</span>
-                <i class="dtech-icons dtech-scroll"></i>
-                <span>Down</span>
-            </a>
-        </div>
-    </div>
-</section>
-
-
-<script src="assets/vendor/jQuery/jquery-3.5.1.js"></script>
-<script src="assets/vendor/popper/popper.min.js"></script>
-<script src="assets/vendor/bootstrap/js/bootstrap.js"></script>
-
-<script src="assets/js/main.js"></script>
-</body>
-</html>
+@media (max-width: 992px) {
+.section_ourServicesPage_body_items_item {
+color: #d5d5d5;
+font-size: 20px;
+letter-spacing: 1.6px;
+line-height: 50.4px;
+text-align: left;
+padding-left: 0;
+padding-right: 15px;
+transition: all 0.3s;
+}
+.section_ourServicesPage_body_items_item:hover {
+color: #ffffff;
+padding-left: 15px;
+padding-right: 0;
+}
+.section_ourServicesPage_body_items_item::after {
+content: "";
+background-color: #ff415c;
+opacity: 0.5;
+display: block;
+height: 1px;
+width: 90%;
+min-width: 60px;
+position: relative;
+transition: all 0.3s;
+}
+.section_ourServicesPage_body_items_item:hover::after {
+margin-left: -15px;
+}
+.section_ourServicesPage_body_items_item::before {
+content: "\e907";
+font-family: 'dtech-icons' !important;
+font-style: normal;
+font-weight: normal;
+font-variant: normal;
+text-transform: none;
+line-height: 1;
+font-size: 0.4em;
+transition: all 0.3s;
+position: absolute;
+color: #ff415c;
+left: 0;
+top: 19px;
+opacity: 0;
+z-index: 10;
+}
+.section_ourServicesPage_body_items_item:hover::before {
+opacity: 1;
+}
+.section_ourServicesPage_body_items_item_body_item {
+width: 250px;
+}
+}
+@media (max-width: 576px) {
+.section_ourServicesPage_body_items_item_body_items {
+width: 100%;
+}
+.section_ourServicesPage_body_items_item_body_item {
+width: 170px;
+flex: 170px;
+}
+}

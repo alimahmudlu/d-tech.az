@@ -1,0 +1,9 @@
+{
+  "root": ".",
+  "clean_urls": true,
+  "routes": {
+    "/": "index.html",
+    "/services": "ourServices.html",
+    "/serviceDetails": "ourServicesInner.html"
+  }
+}

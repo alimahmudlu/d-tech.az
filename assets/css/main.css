@@ -303,13 +303,22 @@ ul li::marker {
     padding-top: 15px;
 }
 .section_navbar_container_search .searchGroup {
-    /*position: relative;*/
-    /*top: -8px;*/
+    position: relative;
+    top: -8px;
     border: 1px solid transparent;
 }
 .section_navbar_container_search .searchBtn {
     font-size: 18px;
     height: 46px;
+}
+.themeWhite .section_navbar_container_search .searchGroup.active {
+    border-color: #194f84 !important;
+}
+.themeWhite .section_navbar_container_search input {
+    color: #194f84 !important;
+}
+.themeWhite .section_navbar_container_search .searchBtn {
+    color: #194f84 !important;
 }
 .searchGroup {
     border: 1px solid transparent;

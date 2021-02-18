@@ -36,90 +36,106 @@
 <body class="themeWhite">
 
 <section class="section section_navbar">
+    <div class="container-fluid container-fluid-grid">
+        <div class="grid">
+            <div class="grid-item grid-1"></div>
+            <div class="grid-item grid-2"></div>
+            <div class="grid-item grid-3"></div>
+            <div class="grid-item grid-4"></div>
+            <div class="grid-item grid-5"></div>
+        </div>
+    </div>
     <div class="container-fluid">
         <div class="section_navbar_container">
-            <a href="/" class="section_navbar_container_link">
+            <a href="/" class="section_navbar_container_link" aria-label="dtech logo">
                 <i class="dtech-icons dtech-logo"></i>
             </a>
             <div class="section_navbar_container_menu">
                 <div class="section_navbar_container_menu_item">
-                    <a href="/" class="section_navbar_container_menu_item--link">
+                    <a href="/" class="section_navbar_container_menu_item--link"  aria-label="menu name">
                         ABOUT COMPANY
                     </a>
                 </div>
                 <div class="section_navbar_container_menu_item active">
-                    <a href="services" class="section_navbar_container_menu_item--link">
+                    <a href="services" class="section_navbar_container_menu_item--link"  aria-label="menu name">
                         OUR SERVICES
                     </a>
                 </div>
             </div>
-            <a href="#" class="section_navbar_container_search">
-                <i class="dtech-icons dtech-search"></i>
-            </a>
-            <a href="#" class="section_navbar_container_toggle">
+            <div class="section_navbar_container_search">
+                <form class="searchGroup">
+                    <input type="search" name="search" id="searchD" placeholder="Search" />
+                    <button class="searchBtn" aria-label="search">
+                        <i class="dtech-icons dtech-search"></i>
+                    </button>
+                </form>
+            </div>
+            <a href="#" class="section_navbar_container_toggle" aria-label="toggle">
                 <i class="dtech-icons dtech-toggle"></i>
             </a>
         </div>
-        <div class="section_navbar_container_mobileMenu">
-            <div class="container-fluid">
-                <div>
-                    <div class="section_navbar_container_mobileMenu_header">
-                        <a href="/" class="section_navbar_container_mobileMenu_header_link">
-                            <i class="dtech-icons dtech-logo"></i>
-                        </a>
-                        <a href="#" class="section_navbar_container_toggle">
-                            <i class="dtech-icons dtech-close"></i>
-                        </a>
-                    </div>
-                    <div class="section_navbar_container_mobileMenu_search">
-                        <form class="searchGroup">
-                            <input type="search" name="search" id="search" placeholder="Search" />
-                            <button class="searchBtn">
-                                <i class="dtech-icons dtech-search"></i>
-                            </button>
-                        </form>
-                    </div>
-                </div>
-                <div class="section_navbar_container_mobileMenu_items">
-                    <div class="section_navbar_container_mobileMenu_items_item">
-                        <a href="/" class="section_navbar_container_mobileMenu_items_item--link">
-                            ABOUT COMPANY
-                        </a>
-                    </div>
-                    <div class="section_navbar_container_mobileMenu_items_item active">
-                        <a href="services" class="section_navbar_container_mobileMenu_items_item--link">
-                            OUR SERVICES
-                        </a>
-                    </div>
-                </div>
-                <div class="section_navbar_container_mobileMenu_footer">
-                    <div class="section_navbar_container_mobileMenu_footer_lang">
-                        <a href="#" class="section_navbar_container_mobileMenu_footer_lang_item">
-                            RU
-                        </a>
-                        <a href="#" class="section_navbar_container_mobileMenu_footer_lang_item active">
-                            EN
-                        </a>
-                    </div>
-                    <div class="section_navbar_container_mobileMenu_footer_social">
-                        <a href="#" class="section_navbar_container_mobileMenu_footer_social_item">
-                            <i class="dtech-icons dtech-instagram"></i>
-                        </a>
-                        <a href="#" class="section_navbar_container_mobileMenu_footer_social_item">
-                            <i class="dtech-icons dtech-fb"></i>
-                        </a>
-                        <a href="#" class="section_navbar_container_mobileMenu_footer_social_item">
-                            <i class="dtech-icons dtech-linkedin"></i>
-                        </a>
-                        <a href="#" class="section_navbar_container_mobileMenu_footer_social_item">
-                            <i class="dtech-icons dtech-twitter"></i>
-                        </a>
-                    </div>
-                </div>
+    </div>
+
+</section>
+
+<div class="section_navbar_container_mobileMenu">
+    <div class="container-fluid">
+        <div>
+            <div class="section_navbar_container_mobileMenu_header">
+                <a href="/" class="section_navbar_container_mobileMenu_header_link" aria-label="logo">
+                    <i class="dtech-icons dtech-logo"></i>
+                </a>
+                <a href="#" class="section_navbar_container_toggle" aria-label="toggle">
+                    <i class="dtech-icons dtech-close"></i>
+                </a>
+            </div>
+            <div class="section_navbar_container_mobileMenu_search">
+                <form class="searchGroup">
+                    <input type="search" name="search" id="search" placeholder="Search" />
+                    <button class="searchBtn" aria-label="search">
+                        <i class="dtech-icons dtech-search"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div class="section_navbar_container_mobileMenu_items">
+            <div class="section_navbar_container_mobileMenu_items_item">
+                <a href="/" class="section_navbar_container_mobileMenu_items_item--link" aria-label="menu name">
+                    ABOUT COMPANY
+                </a>
+            </div>
+            <div class="section_navbar_container_mobileMenu_items_item active">
+                <a href="services" class="section_navbar_container_mobileMenu_items_item--link" aria-label="menu name">
+                    OUR SERVICES
+                </a>
+            </div>
+        </div>
+        <div class="section_navbar_container_mobileMenu_footer">
+            <div class="section_navbar_container_mobileMenu_footer_lang">
+                <a href="#" class="section_navbar_container_mobileMenu_footer_lang_item" aria-label="lang name">
+                    RU
+                </a>
+                <a href="#" class="section_navbar_container_mobileMenu_footer_lang_item active" aria-label="lang name">
+                    EN
+                </a>
+            </div>
+            <div class="section_navbar_container_mobileMenu_footer_social">
+                <a href="#" class="section_navbar_container_mobileMenu_footer_social_item"  aria-label="social menu name">
+                    <i class="dtech-icons dtech-instagram"></i>
+                </a>
+                <a href="#" class="section_navbar_container_mobileMenu_footer_social_item"  aria-label="social menu name">
+                    <i class="dtech-icons dtech-fb"></i>
+                </a>
+                <a href="#" class="section_navbar_container_mobileMenu_footer_social_item"  aria-label="social menu name">
+                    <i class="dtech-icons dtech-linkedin"></i>
+                </a>
+                <a href="#" class="section_navbar_container_mobileMenu_footer_social_item"  aria-label="social menu name">
+                    <i class="dtech-icons dtech-twitter"></i>
+                </a>
             </div>
         </div>
     </div>
-</section>
+</div>
 
 
 <section class="sidebar">

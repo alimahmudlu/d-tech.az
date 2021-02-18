@@ -7,6 +7,12 @@ $(document).on('click', '.searchBtn:not(.active)', function (e) {
 	$('.searchGroup').addClass('active')
 	$(this).addClass('active')
 })
+$(document).on("click", function(event){
+	if(!$(event.target).closest(".searchGroup").length){
+		$('.searchGroup').removeClass('active')
+		$('.searchBtn').removeClass('active')
+	}
+});
 
 
 $('.section_ourServicesPage_body_items_item').hover(function () {

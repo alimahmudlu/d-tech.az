@@ -36,6 +36,15 @@
 <body>
 
 <section class="section section_navbar">
+    <div class="container-fluid container-fluid-grid">
+        <div class="grid">
+            <div class="grid-item grid-1"></div>
+            <div class="grid-item grid-2"></div>
+            <div class="grid-item grid-3"></div>
+            <div class="grid-item grid-4"></div>
+            <div class="grid-item grid-5"></div>
+        </div>
+    </div>
     <div class="container-fluid">
         <div class="section_navbar_container">
             <a href="/" class="section_navbar_container_link" aria-label="dtech logo">
@@ -53,73 +62,82 @@
                     </a>
                 </div>
             </div>
-            <a href="#" class="section_navbar_container_search" aria-label="search">
-                <i class="dtech-icons dtech-search"></i>
-            </a>
+            <div class="section_navbar_container_search">
+                <form class="searchGroup">
+                    <input type="search" name="search" id="searchD" placeholder="Search" />
+                    <button class="searchBtn" aria-label="search">
+                        <i class="dtech-icons dtech-search"></i>
+                    </button>
+                </form>
+            </div>
             <a href="#" class="section_navbar_container_toggle" aria-label="toggle">
                 <i class="dtech-icons dtech-toggle"></i>
             </a>
         </div>
-        <div class="section_navbar_container_mobileMenu">
-            <div class="container-fluid">
-                <div>
-                    <div class="section_navbar_container_mobileMenu_header">
-                        <a href="/" class="section_navbar_container_mobileMenu_header_link" aria-label="logo">
-                            <i class="dtech-icons dtech-logo"></i>
-                        </a>
-                        <a href="#" class="section_navbar_container_toggle" aria-label="toggle">
-                            <i class="dtech-icons dtech-close"></i>
-                        </a>
-                    </div>
-                    <div class="section_navbar_container_mobileMenu_search">
-                        <form class="searchGroup">
-                            <input type="search" name="search" id="search" placeholder="Search" />
-                            <button class="searchBtn" aria-label="search">
-                                <i class="dtech-icons dtech-search"></i>
-                            </button>
-                        </form>
-                    </div>
-                </div>
-                <div class="section_navbar_container_mobileMenu_items">
-                    <div class="section_navbar_container_mobileMenu_items_item active">
-                        <a href="/" class="section_navbar_container_mobileMenu_items_item--link" aria-label="menu name">
-                            ABOUT COMPANY
-                        </a>
-                    </div>
-                    <div class="section_navbar_container_mobileMenu_items_item">
-                        <a href="services" class="section_navbar_container_mobileMenu_items_item--link" aria-label="menu name">
-                            OUR SERVICES
-                        </a>
-                    </div>
-                </div>
-                <div class="section_navbar_container_mobileMenu_footer">
-                    <div class="section_navbar_container_mobileMenu_footer_lang">
-                        <a href="#" class="section_navbar_container_mobileMenu_footer_lang_item" aria-label="lang name">
-                            RU
-                        </a>
-                        <a href="#" class="section_navbar_container_mobileMenu_footer_lang_item active" aria-label="lang name">
-                            EN
-                        </a>
-                    </div>
-                    <div class="section_navbar_container_mobileMenu_footer_social">
-                        <a href="#" class="section_navbar_container_mobileMenu_footer_social_item"  aria-label="social menu name">
-                            <i class="dtech-icons dtech-instagram"></i>
-                        </a>
-                        <a href="#" class="section_navbar_container_mobileMenu_footer_social_item"  aria-label="social menu name">
-                            <i class="dtech-icons dtech-fb"></i>
-                        </a>
-                        <a href="#" class="section_navbar_container_mobileMenu_footer_social_item"  aria-label="social menu name">
-                            <i class="dtech-icons dtech-linkedin"></i>
-                        </a>
-                        <a href="#" class="section_navbar_container_mobileMenu_footer_social_item"  aria-label="social menu name">
-                            <i class="dtech-icons dtech-twitter"></i>
-                        </a>
-                    </div>
-                </div>
+    </div>
+
+</section>
+
+<div class="section_navbar_container_mobileMenu">
+    <div class="container-fluid">
+        <div>
+            <div class="section_navbar_container_mobileMenu_header">
+                <a href="/" class="section_navbar_container_mobileMenu_header_link" aria-label="logo">
+                    <i class="dtech-icons dtech-logo"></i>
+                </a>
+                <a href="#" class="section_navbar_container_toggle" aria-label="toggle">
+                    <i class="dtech-icons dtech-close"></i>
+                </a>
+            </div>
+            <div class="section_navbar_container_mobileMenu_search">
+                <form class="searchGroup">
+                    <input type="search" name="search" id="search" placeholder="Search" />
+                    <button class="searchBtn" aria-label="search">
+                        <i class="dtech-icons dtech-search"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div class="section_navbar_container_mobileMenu_items">
+            <div class="section_navbar_container_mobileMenu_items_item active">
+                <a href="/" class="section_navbar_container_mobileMenu_items_item--link" aria-label="menu name">
+                    ABOUT COMPANY
+                </a>
+            </div>
+            <div class="section_navbar_container_mobileMenu_items_item">
+                <a href="services" class="section_navbar_container_mobileMenu_items_item--link" aria-label="menu name">
+                    OUR SERVICES
+                </a>
+            </div>
+        </div>
+        <div class="section_navbar_container_mobileMenu_footer">
+            <div class="section_navbar_container_mobileMenu_footer_lang">
+                <a href="#" class="section_navbar_container_mobileMenu_footer_lang_item" aria-label="lang name">
+                    RU
+                </a>
+                <a href="#" class="section_navbar_container_mobileMenu_footer_lang_item active" aria-label="lang name">
+                    EN
+                </a>
+            </div>
+            <div class="section_navbar_container_mobileMenu_footer_social">
+                <a href="#" class="section_navbar_container_mobileMenu_footer_social_item"  aria-label="social menu name">
+                    <i class="dtech-icons dtech-instagram"></i>
+                </a>
+                <a href="#" class="section_navbar_container_mobileMenu_footer_social_item"  aria-label="social menu name">
+                    <i class="dtech-icons dtech-fb"></i>
+                </a>
+                <a href="#" class="section_navbar_container_mobileMenu_footer_social_item"  aria-label="social menu name">
+                    <i class="dtech-icons dtech-linkedin"></i>
+                </a>
+                <a href="#" class="section_navbar_container_mobileMenu_footer_social_item"  aria-label="social menu name">
+                    <i class="dtech-icons dtech-twitter"></i>
+                </a>
             </div>
         </div>
     </div>
-</section>
+</div>
+
+
 <section class="sidebar">
     <div class="sidebar_lang">
         <a href="#" class="sidebar_lang_item"  aria-label="lang name">
@@ -144,7 +162,18 @@
         </a>
     </div>
 </section>
+
+
 <section class="section section_header">
+    <div class="container-fluid container-fluid-grid">
+        <div class="grid">
+            <div class="grid-item grid-1"></div>
+            <div class="grid-item grid-2"></div>
+            <div class="grid-item grid-3"></div>
+            <div class="grid-item grid-4"></div>
+            <div class="grid-item grid-5"></div>
+        </div>
+    </div>
     <div class="container-fluid">
         <div class="containerBreak">
             <div class="row containerBreak-row containerBreak-row-left">
@@ -182,6 +211,15 @@
 
 
 <section class="section section_aboutOurCompany">
+    <div class="container-fluid container-fluid-grid">
+        <div class="grid grid-bgWhite">
+            <div class="grid-item grid-1"></div>
+            <div class="grid-item grid-2"></div>
+            <div class="grid-item grid-3"></div>
+            <div class="grid-item grid-4"></div>
+            <div class="grid-item grid-5"></div>
+        </div>
+    </div>
     <div class="section_head section_aboutOurCompany_head">
         <div class="container-fluid">
             <h2 class="section_head--header section_aboutOurCompany_head--header">
@@ -224,6 +262,15 @@
 
 
 <section class="section section_ourServices">
+    <div class="container-fluid container-fluid-grid">
+        <div class="grid">
+            <div class="grid-item grid-1"></div>
+            <div class="grid-item grid-2"></div>
+            <div class="grid-item grid-3"></div>
+            <div class="grid-item grid-4"></div>
+            <div class="grid-item grid-5"></div>
+        </div>
+    </div>
     <div class="section_head section_ourServices_head">
         <div class="container-fluid">
             <h2 class="section_head--header section_ourServices_head--header">
@@ -261,6 +308,15 @@
 
 
 <section class="section section_weFixIt">
+    <div class="container-fluid container-fluid-grid">
+        <div class="grid">
+            <div class="grid-item grid-1"></div>
+            <div class="grid-item grid-2"></div>
+            <div class="grid-item grid-3"></div>
+            <div class="grid-item grid-4"></div>
+            <div class="grid-item grid-5"></div>
+        </div>
+    </div>
     <div class="section_head section_weFixIt_head">
         <div class="container-fluid">
             <h2 class="section_head--header section_weFixIt_head--header">
@@ -409,6 +465,15 @@
 
 
 <section class="section section_footer">
+    <div class="container-fluid container-fluid-grid">
+        <div class="grid">
+            <div class="grid-item grid-1"></div>
+            <div class="grid-item grid-2"></div>
+            <div class="grid-item grid-3"></div>
+            <div class="grid-item grid-4"></div>
+            <div class="grid-item grid-5"></div>
+        </div>
+    </div>
     <div class="container-fluid">
         <div class="section_footer_body">
             <div class="row">

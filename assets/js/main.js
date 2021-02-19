@@ -15,7 +15,7 @@ $(document).on("click", function(event){
 });
 
 
-$('.section_ourServicesPage_body_items_item').hover(function () {
+$('.section_ourServicesPage_body_items_item').hover(function (e) {
 	$('.section_ourServicesPage_body_items_item').not($(this)).addClass('blur')
 	$(this).addClass('blurInner')
 	// $(this).children('.section_weFixIt_body_items_item_body').fadeIn('slow')
@@ -28,10 +28,12 @@ $('.section_ourServicesPage_body_items_item').hover(function () {
 $('.section_weFixIt_body_items_item').hover(function () {
 	$('.section_weFixIt_body_items_item').not($(this)).addClass('blur');
 	$(this).addClass('inBlur');
+	$(this).children('.section_weFixIt_body_items_item_body').stop().fadeOut();
 	$(this).children('.section_weFixIt_body_items_item_body').fadeIn('300')
 }, function () {
 	$('.section_weFixIt_body_items_item').not($(this)).removeClass('blur');
 	$(this).removeClass('inBlur');
+	$(this).children('.section_weFixIt_body_items_item_body').stop().fadeIn();
 	$(this).children('.section_weFixIt_body_items_item_body').fadeOut('300')
 })
 

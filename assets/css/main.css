@@ -1007,7 +1007,7 @@ button:focus {
     letter-spacing: 2px;
     line-height: normal;
     text-align: left;
-    transition: all 0.3s;
+    transition: color 0.3s, z-index 0.3s;
     padding-left: 0;
     padding-right: 30px;
 }

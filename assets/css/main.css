@@ -929,6 +929,9 @@ button:focus {
     .section_weFixIt_body_items_item:hover::before {
         opacity: 1;
     }
+    .section_weFixIt_body_items_item_body {
+        display: none !important;
+    }
     .section_weFixIt_body_items_item_body_item {
         width: 250px;
     }

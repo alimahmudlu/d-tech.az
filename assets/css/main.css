@@ -174,7 +174,11 @@ ul li::marker {
         padding: 30px 0;
     }
     .section_head {
-        margin-bottom: 55px;
+        margin-bottom: 40px;
+    }
+    .section_head--header {
+        font-size: 22px;
+        letter-spacing: 1.76px;
     }
     .section_head--small {
         margin-bottom: 10px;
@@ -752,6 +756,31 @@ button:focus {
     text-align: left;
     font-family: "BebasNeue-Book", sans-serif;
 }
+
+@media (max-width: 992px) {
+    .section_aboutOurCompany--header {
+        font-size: 40px;
+        letter-spacing: 3.2px;
+        margin-bottom: 25px;
+    }
+    .section_aboutOurCompany--header2 {
+        font-size: 20px;
+        margin-bottom: 15px;
+        letter-spacing: 1.44px;
+        line-height: 24px;
+    }
+    .section_aboutOurCompany--description {
+        font-size: 16px;
+        letter-spacing: 1.44px;
+        margin-bottom: 25px;
+        line-height: 24px;
+    }
+    .section_aboutOurCompany--description2 {
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 1.28px;
+    }
+}
 /* ABOUT OUR COMPANY END */
 
 
@@ -808,6 +837,20 @@ button:focus {
     line-height: 30px;
     text-align: left;
     font-family: "BebasNeue-Book", sans-serif;
+}
+
+@media (max-width: 992px) {
+    .section_ourServices--header {
+        font-size: 40px;
+        letter-spacing: 3.2px;
+        line-height: 40px;
+        margin-bottom: 30px;
+    }
+    .section_ourServices--description {
+        font-size: 16px;
+        letter-spacing: 1.28px;
+        line-height: 24px;
+    }
 }
 /* OUR SERVICES END */
 
@@ -934,6 +977,13 @@ button:focus {
     }
     .section_weFixIt_body_items_item_body_item {
         width: 250px;
+    }
+    .section_weFixIt_head--header {
+        font-size: 22px;
+        letter-spacing: 1.76px;
+    }
+    .section_weFixIt_body {
+        padding: 35px 0;
     }
 }
 @media (max-width: 576px) {
@@ -1102,6 +1152,20 @@ button:focus {
     }
     .section_ourServicesPage_body_items_item_body_item {
         width: 250px;
+    }
+    .section_ourServicesPage_head--header {
+        color: #b1b1b1;
+    }
+    .section_ourServicesPage_head--description {
+        color: #b1b1b1;
+        margin-bottom: 25px;
+
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: 1.28px;
+        line-height: 30px;
+        text-align: left;
     }
 }
 @media (max-width: 576px) {

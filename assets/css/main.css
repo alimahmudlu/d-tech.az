@@ -676,7 +676,7 @@ button:focus {
 
 @media (max-width: 992px) {
     .section_header {
-        padding-top: 100px;
+        padding-top: 130px;
         /*padding-bottom: 90px;*/
     }
     .section_header .container-fluid .containerBreak {

@@ -1363,9 +1363,8 @@ button:focus {
     letter-spacing: 2.8px;
     line-height: 84.4px;
     text-align: left;
-    /*position: relative;*/
-    transition: all 0.3s;
     z-index: 0;
+    transition: color 0.3s, z-index 0.3s;
 }
 .section_weFixIt_body_items_item.blur {
     filter: blur(1.5px);
@@ -1405,7 +1404,7 @@ button:focus {
         text-align: left;
         padding-left: 0;
         padding-right: 15px;
-        transition: all 0.3s;
+        transition: color 0.3s, z-index 0.3s;
     }
     .section_weFixIt_body_items_item:hover {
         color: #ffffff;

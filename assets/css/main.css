@@ -598,11 +598,12 @@ button:focus {
     max-height: 1000px;
     padding-top: 130px;
     padding-bottom: 5px;
+    display: flex;
 }
 .section_header .container-fluid {
     display: flex;
     flex-wrap: wrap;
-    height: 100%;
+    /*height: 100%;*/
     align-items: center;
 }
 .section_header .container-fluid .containerBreak {

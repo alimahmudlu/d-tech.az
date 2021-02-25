@@ -260,6 +260,9 @@ ul li::marker {
 .section_navbar_container_menu_item--link:hover {
     color: #ffffff;
 }
+.section_navbar_container_menu_item--link h6 {
+    display: inline-block;
+}
 .themeWhite .section_navbar_container_menu_item--link {
     color: #194f84;
 }
@@ -523,6 +526,9 @@ button:focus {
 }
 .sidebar_lang {
     text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
 }
 .sidebar_lang_item {
     opacity: 0.3;
@@ -534,6 +540,7 @@ button:focus {
     line-height: 1;
     text-align: left;
     text-transform: uppercase;
+    margin-bottom: 6px;
 }
 .sidebar_lang_item:hover {
     color: #ffffff;
@@ -887,7 +894,7 @@ button:focus {
     font-size: 35px;
     font-weight: 700;
     font-style: normal;
-    letter-spacing: 2.8px;
+    letter-spacing: 3.9px;
     line-height: 84.4px;
     text-align: left;
     /*position: relative;*/
@@ -1425,7 +1432,7 @@ button:focus {
     font-size: 35px;
     font-weight: 700;
     font-style: normal;
-    letter-spacing: 2.8px;
+    letter-spacing: 3.9px;
     line-height: 84.4px;
     text-align: left;
     z-index: 0;

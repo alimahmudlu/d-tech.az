@@ -35,7 +35,7 @@
     content: attr(aria-label);
 }
 .glitchOutHover::before {
-    animation: glitch-anim-beforeOutHover 8.5s infinite linear alternate-reverse;
+    animation: glitch-anim-beforeOutHover 12s infinite linear alternate-reverse;
 }
 .glitchOutHover::after {
     animation: glitch-anim-afterOutHover 12s infinite linear alternate-reverse;

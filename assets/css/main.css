@@ -1,6 +1,7 @@
 /* DEFAULT STYLESHEET */
 body {
     font-family: "BebasNeue-Bold", sans-serif;
+    background: url("../images/ag_background.png") repeat 100%;
 }
 .container-fluid {
     padding-left: 65px;
@@ -1274,7 +1275,7 @@ button:focus {
     /*background-image: url(../images/background.png);*/
     background-size: cover;
     background-position: center center;
-    background-color: rgba(255, 255, 255, 0.7);
+    /*background-color: rgba(255, 255, 255, 0.7);*/
 }
 .section_footer_body {
     padding: 0 0 70px;

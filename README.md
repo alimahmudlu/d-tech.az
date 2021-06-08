@@ -1,5 +1,5 @@
 # **D-TECH WEB SITE - FRONT END**
-**[https://dtechtest.herokuapp.com/](https://dtechtest.herokuapp.com/)**
+**[https://dtech-front.herokuapp.com/](https://dtech-front.herokuapp.com/)**
 ****
 
 **İstifadə olunan paketlər:**

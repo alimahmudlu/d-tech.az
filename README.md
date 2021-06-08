@@ -1,4 +1,4 @@
-# **Ministry of Foreign Affairs WEB SITE - FRONT END**
+# **D-TECH WEB SITE - FRONT END**
 **[https://dtechtest.herokuapp.com/](https://dtechtest.herokuapp.com/)**
 ****
 

@@ -1,3 +1,13 @@
+/*
+ *    Version: 1.0.1
+ *     Author: Ali Mahmudlu (alimahmudlu)
+ *    Website: http://alimahmudlu.github.io
+ *     Github: https://github.com/alimahmudlu/
+ *       Repo: https://github.com/alimahmudlu/xin.gov.az/
+ *  Telephone: +994708550235
+ *      Email: alimahmudlu@gmail.com
+*/
+
 $(document).on('click', '.section_navbar_container_toggle', function () {
 	$('.section_navbar_container_mobileMenu').toggleClass('active')
 })
